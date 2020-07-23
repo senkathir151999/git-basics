@@ -1,0 +1,70 @@
+@import './varable';
+@mixin flex($direction) { 
+    font-size: 30px;
+    display: flex;
+    flex-direction: $direction;
+    
+}
+@mixin media {
+    @media (max-width: )
+}
+html body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.section-one {
+    margin: 5px;
+    border: 2px solid $border-color;
+  h1 {
+     text-align: center;
+    color: $text-heading-color;  
+    background-color: $frist-bg-color;
+  }
+  .para-one {
+      background-color: $second-bg-color;
+      color: $text-para-color;
+
+  }
+  .para-two {
+      background: $second-bg-color;
+      font-size: 25px;
+      &:hover {
+          color: pink;
+      }
+  }
+  ul {
+      li{
+          a{
+              color: green;
+              &:hover {
+                  color: blue;
+              }
+          }
+          
+    
+      }
+  }
+
+
+    
+}
+.section-two {
+    background-color: blueviolet;
+    
+    margin: 3px;
+    
+    .section-two-div {
+        border: $border;
+        padding: 3px;
+        margin: 20px;
+    }
+    .section-two-divs {
+        @include flex(row);
+        border: $border;
+
+
+
+
+    }
+}

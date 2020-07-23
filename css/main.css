@@ -1,0 +1,61 @@
+html body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+.section-one {
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.section-one h1 {
+  text-align: center;
+  color: red;
+  background-color: yellow;
+}
+
+.section-one .para-one {
+  background-color: green;
+  color: white;
+}
+
+.section-one .para-two {
+  background: green;
+  font-size: 25px;
+}
+
+.section-one .para-two:hover {
+  color: pink;
+}
+
+.section-one ul li a {
+  color: green;
+}
+
+.section-one ul li a:hover {
+  color: blue;
+}
+
+.section-two {
+  background-color: blueviolet;
+  margin: 3px;
+}
+
+.section-two .section-two-div {
+  border: 3px solid black;
+  padding: 3px;
+  margin: 20px;
+}
+
+.section-two .section-two-divs {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 3px solid black;
+}
+/*# sourceMappingURL=main.css.map */
